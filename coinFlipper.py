@@ -10,3 +10,10 @@ def flip_a_coin():
 
 def print_how_to():
     print("Flip a coin.\nHeads you win.\nTails you lose.")
+
+def main():
+    print_how_to()
+    for _ in range(100):
+        flip_a_coin()
+
+main()
